@@ -1,0 +1,47 @@
+Categories:
+  - Sports & Health
+  - Time
+License: MIT
+AuthorName: Logan
+SourceCode: https://github.com/logan37/plain_journal
+IssueTracker: https://github.com/logan37/plain_journal/issues
+Changelog: https://github.com/logan37/plain_journal/releases
+WebSite: https://logan37.github.io/plain_journal/
+
+AutoName: Plain Journal
+
+RepoType: git
+Repo: https://github.com/logan37/plain_journal.git
+Binaries: https://github.com/logan37/plain_journal/releases/download/v%v/plain_journal_%v.apk
+
+Builds:
+  - versionName: 1.0.2
+    versionCode: 3
+    commit: e627041e1a9368556b3141961f454bdcc56e6997
+    srclibs:
+      - flutter@3.47.4
+    rm:
+      - ios
+      - linux
+      - macos
+      - web
+      - windows
+    output: build/app/outputs/flutter-apk/app-release.apk
+    prebuild:
+      - export PUB_CACHE=$(pwd)/.pub-cache
+      - $$flutter$$/bin/flutter config --no-analytics
+      - $$flutter$$/bin/flutter pub get --enforce-lockfile
+    scanignore:
+      - $$flutter$$/bin/cache
+    scandelete:
+      - .pub-cache
+      - $$flutter$$
+    build:
+      - export PUB_CACHE=$(pwd)/.pub-cache
+      - $$flutter$$/bin/flutter build apk --release
+
+AutoUpdateMode: Version
+UpdateCheckMode: Tags
+UpdateCheckData: pubspec.yaml|version:\s.+\+(\d+)|.|version:\s(.+)\+
+CurrentVersion: 1.0.2
+CurrentVersionCode: 3
