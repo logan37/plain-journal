@@ -3,16 +3,16 @@ Categories:
   - Time
 License: MIT
 AuthorName: Logan
-SourceCode: https://github.com/logan37/plain_journal
-IssueTracker: https://github.com/logan37/plain_journal/issues
-Changelog: https://github.com/logan37/plain_journal/releases
-WebSite: https://logan37.github.io/plain_journal/
+SourceCode: https://github.com/logan37/plain-journal
+IssueTracker: https://github.com/logan37/plain-journal/issues
+Changelog: https://github.com/logan37/plain-journal/releases
+WebSite: https://logan37.github.io/plain-journal/
 
 AutoName: Plain Journal
 
 RepoType: git
-Repo: https://github.com/logan37/plain_journal.git
-Binaries: https://github.com/logan37/plain_journal/releases/download/v%v/plain_journal_%v.apk
+Repo: https://github.com/logan37/plain-journal.git
+Binaries: https://github.com/logan37/plain-journal/releases/download/v%v/plain_journal_%v.apk
 
 Builds:
   - versionName: 1.0.2

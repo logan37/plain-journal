@@ -4,7 +4,7 @@ A private daily journal tracker for Android. Log your mood, meals, tags, and
 period markers, then look back with a calendar and insights dashboard. Weather
 for your chosen city is included — no account, no cloud, no tracking.
 
-> ⚠️ **Work in progress** — distributed via [GitHub Releases](https://github.com/logan37/plain_journal/releases). Submitted to F-Droid and IzzyOnDroid. A Play Store listing is planned.
+> ⚠️ **Work in progress** — distributed via [GitHub Releases](https://github.com/logan37/plain-journal/releases). Submitted to F-Droid. A Play Store listing is planned.
 
 ## Features
 
@@ -22,7 +22,7 @@ for your chosen city is included — no account, no cloud, no tracking.
 
 ## Install
 
-Download the latest APK from the [Releases page](https://github.com/logan37/plain_journal/releases),
+Download the latest APK from the [Releases page](https://github.com/logan37/plain-journal/releases),
 open it on your Android device, and allow "Install unknown apps" for your browser or
 file manager.
 

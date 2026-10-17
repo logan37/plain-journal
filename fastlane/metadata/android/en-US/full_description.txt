@@ -28,4 +28,4 @@ makes is to Open-Meteo for the weather forecast of the city you choose. There
 is no account and nothing is uploaded to a server we control.
 
 Plain Journal is free and open source (MIT licensed). Source code:
-https://github.com/logan37/plain_journal
+https://github.com/logan37/plain-journal
