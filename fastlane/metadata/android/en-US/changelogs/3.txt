@@ -1,0 +1,4 @@
+* New gender setting: choose Female, Male, Non-binary, or Prefer not to say on
+  first launch. Period tracking is shown only when Female is selected.
+* New Settings screen to review or change your gender at any time.
+* Fix: web (PWA) build now loads correctly.

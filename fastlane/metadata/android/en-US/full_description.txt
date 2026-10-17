@@ -1,0 +1,31 @@
+Plain Journal is a private, offline daily journal. Track your mood, meals, tags,
+and period markers, then look back with a calendar and an insights dashboard.
+Weather for a city you choose is included. No account, no cloud, no tracking.
+
+Everything you write stays on your device. Plain Journal has no sign-up, no
+server of its own, and no analytics. Your data is deleted when you uninstall
+the app.
+
+FEATURES
+
+* Calendar home - colour-coded dots per day for mood and period, so a month at
+  a glance shows how you have been.
+* Journal entries - free-form notes with a five-point mood scale, plus your own
+  custom tags for things like sleep, exercise, or symptoms.
+* Food and period tracking - optional per-day food notes and period markers you
+  can switch on or off.
+* Weather - current conditions and a seven-day forecast for a city you pick,
+  powered by Open-Meteo (no API key, no account).
+* Insights - streaks, mood distribution, a monthly mood trend, and your most
+  used tags.
+* Gender-aware - a one-time setting decides whether period tracking is shown;
+  choose Female, Male, Non-binary, or Prefer not to say.
+
+PRIVACY
+
+All entries are stored locally on your device. The only network request the app
+makes is to Open-Meteo for the weather forecast of the city you choose. There
+is no account and nothing is uploaded to a server we control.
+
+Plain Journal is free and open source (MIT licensed). Source code:
+https://github.com/logan37/plain_journal

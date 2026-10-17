@@ -4,7 +4,7 @@ A private daily journal tracker for Android. Log your mood, meals, tags, and
 period markers, then look back with a calendar and insights dashboard. Weather
 for your chosen city is included — no account, no cloud, no tracking.
 
-> ⚠️ **Work in progress** — distributed via [GitHub Releases](https://github.com/logan37/plain_journal/releases). A Play Store listing is planned.
+> ⚠️ **Work in progress** — distributed via [GitHub Releases](https://github.com/logan37/plain_journal/releases). Submitted to F-Droid and IzzyOnDroid. A Play Store listing is planned.
 
 ## Features
 
@@ -46,3 +46,8 @@ To regenerate the marketing screenshots (requires an emulator/device):
 flutter drive --driver=test_driver/integration_test.dart \
   --target=integration_test/screenshots_test.dart
 ```
+
+## License
+
+Plain Journal is free software licensed under the
+[MIT License](LICENSE).
